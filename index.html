@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Platina Hotel — Enjoy Holidays with Affordable Hotels. Book your stay with superb facilities, easy flight search, hotel offers and holiday packages." />
+  <meta name="keywords" content="Platina Hotel, affordable hotel, holiday packages, book hotel, hotel facilities" />
+  <meta name="author" content="Platina Hotel" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Platina Hotel — Enjoy Holidays" />
+  <meta property="og:description" content="Book a luxury stay with superb facilities at affordable prices." />
+  <meta property="og:type" content="website" />
+
+  <title>PLATINA — Enjoy Holidays with Affordable Hotels</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23e8533a'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='18' font-family='serif' font-weight='700'>P</text></svg>" />
+</head>
+<body>
+
+<!-- ════════════════════════════════════════
+     PRELOADER
+     ════════════════════════════════════════ -->
+<div id="preloader">
+  <div class="loader-ring"></div>
+</div>
+
+<!-- Scroll Progress -->
+<div id="scroll-progress"></div>
+
+<!-- ════════════════════════════════════════
+     NAVBAR
+     ════════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-brand">PLATINA</a>
+
+    <!-- Desktop links -->
+    <ul class="nav-menu">
+      <li><a href="#home"         class="active">Home</a></li>
+      <li><a href="#facilities">Facilities</a></li>
+      <li><a href="#services">Service</a></li>
+      <li><a href="#booking">Book</a></li>
+    </ul>
+
+    <!-- Book btn (appears on scroll) -->
+    <a href="#booking" class="nav-book-btn">Book Now</a>
+
+    <!-- Hamburger (mobile) -->
+    <div class="hamburger" role="button" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Overlay -->
+<div class="nav-overlay">
+  <span class="nav-close" role="button" aria-label="Close menu">
+    <i class="fas fa-times"></i>
+  </span>
+  <a href="#home">Home</a>
+  <a href="#facilities">Facilities</a>
+  <a href="#welcome">About</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#booking">Book a Room</a>
+  <a href="#contact-info">Contact</a>
+</div>
+
+<!-- ════════════════════════════════════════
+     HERO
+     ════════════════════════════════════════ -->
+<section id="home" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1>
+      <span>Enjoy Holidays</span>
+      <span>with affordable Hotels</span>
+    </h1>
+    <a href="#booking" class="hero-btn">
+      <i class="fas fa-search"></i> START SEARCHING
+    </a>
+  </div>
+
+  <!-- Scroll hint -->
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="hero-scroll-line"></div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     FACILITIES
+     ════════════════════════════════════════ -->
+<section id="facilities">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2>Superb Facilities</h2>
+      <div class="section-divider"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <div class="facilities-grid">
+
+      <div class="facility-card reveal reveal-left reveal-delay-1">
+        <img
+          src="https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=600&q=80"
+          alt="Swimming Pool"
+          loading="lazy"
+        />
+        <div class="facility-card-overlay">
+          <span class="facility-card-label">Swimming Pool</span>
+        </div>
+      </div>
+
+      <div class="facility-card reveal reveal-delay-2">
+        <img
+          src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=80"
+          alt="Luxury Rooms"
+          loading="lazy"
+        />
+        <div class="facility-card-overlay">
+          <span class="facility-card-label">Luxury Rooms</span>
+        </div>
+      </div>
+
+      <div class="facility-card reveal reveal-right reveal-delay-3">
+        <img
+          src="https://images.unsplash.com/photo-1540541338287-41700207dee6?w=600&q=80"
+          alt="Tropical Resort"
+          loading="lazy"
+        />
+        <div class="facility-card-overlay">
+          <span class="facility-card-label">Tropical Resort</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     STATS STRIP
+     ════════════════════════════════════════ -->
+<div class="stats-section">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <span class="stat-num" data-count="2450" data-suffix="+">0</span>
+        <span class="stat-label">Happy Guests</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-1">
+        <span class="stat-num" data-count="185" data-suffix="+">0</span>
+        <span class="stat-label">Luxury Rooms</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-2">
+        <span class="stat-num" data-count="98" data-suffix="%">0</span>
+        <span class="stat-label">Satisfaction Rate</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-3">
+        <span class="stat-num" data-count="24" data-suffix="/7">0</span>
+        <span class="stat-label">Room Service</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     WELCOME / ABOUT SPLIT
+     ════════════════════════════════════════ -->
+<section id="welcome" style="padding:0;">
+  <div class="welcome-grid">
+
+    <!-- Left: two hotel images stacked side-by-side -->
+    <div class="welcome-images">
+      <img
+        src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=500&q=80"
+        alt="Hotel door"
+        loading="lazy"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=500&q=80"
+        alt="Hotel room key"
+        loading="lazy"
+      />
+    </div>
+
+    <!-- Right: dark text panel -->
+    <div class="welcome-text reveal reveal-right">
+      <h2>A very Lovely<br>Welcome<br>to our Hotel</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Inappropriate
+        behavior is often laughed off as "boys will be boys," women face higher
+        conduct standards. That's why it's crucial that our behaviour on the job
+        is beyond reproach.
+      </p>
+      <a href="#booking" class="btn-outline-white">MAKE PACKAGE OF YOUR OWN</a>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     SERVICES / FEATURES
+     ════════════════════════════════════════ -->
+<section id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2>Superb Facilities</h2>
+      <div class="section-divider"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-item reveal reveal-delay-1">
+        <div class="service-icon">
+          <i class="fas fa-plane-departure"></i>
+        </div>
+        <h4>Easy Flight Search</h4>
+        <p>Inappropriate behavior is often laughed off as "boys will be boys," women face higher conduct.</p>
+      </div>
+
+      <div class="service-item reveal reveal-delay-2">
+        <div class="service-icon">
+          <i class="fas fa-concierge-bell"></i>
+        </div>
+        <h4>Get Hotel Offers</h4>
+        <p>Inappropriate behavior is often laughed off as "boys will be boys," women face higher conduct.</p>
+      </div>
+
+      <div class="service-item reveal reveal-delay-3">
+        <div class="service-icon">
+          <i class="fas fa-suitcase-rolling"></i>
+        </div>
+        <h4>Holiday Packages</h4>
+        <p>Inappropriate behavior is often laughed off as "boys will be boys," women face higher conduct.</p>
+      </div>
+
+      <div class="service-item reveal reveal-delay-1">
+        <div class="service-icon">
+          <i class="fas fa-rocket"></i>
+        </div>
+        <h4>Easy Flight Search</h4>
+        <p>Inappropriate behavior is often laughed off as "boys will be boys," women face higher conduct.</p>
+      </div>
+
+      <div class="service-item reveal reveal-delay-2">
+        <div class="service-icon">
+          <i class="fas fa-tools"></i>
+        </div>
+        <h4>Get Hotel Offers</h4>
+        <p>Inappropriate behavior is often laughed off as "boys will be boys," women face higher conduct.</p>
+      </div>
+
+      <div class="service-item reveal reveal-delay-3">
+        <div class="service-icon">
+          <i class="fas fa-gift"></i>
+        </div>
+        <h4>Holiday Packages</h4>
+        <p>Inappropriate behavior is often laughed off as "boys will be boys," women face higher conduct.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     GALLERY STRIP
+     ════════════════════════════════════════ -->
+<section id="gallery" style="padding:0;">
+  <div class="gallery-strip">
+
+    <div class="gallery-item" data-tooltip="Pool View">
+      <img
+        src="https://images.unsplash.com/photo-1540541338287-41700207dee6?w=480&q=80"
+        alt="Gallery 1" loading="lazy"
+      />
+      <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+    </div>
+
+    <div class="gallery-item" data-tooltip="Forest Walk">
+      <img
+        src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=480&q=80"
+        alt="Gallery 2" loading="lazy"
+      />
+      <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+    </div>
+
+    <div class="gallery-item" data-tooltip="Traveller">
+      <img
+        src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=480&q=80"
+        alt="Gallery 3" loading="lazy"
+      />
+      <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+    </div>
+
+    <div class="gallery-item" data-tooltip="Mountain View">
+      <img
+        src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=480&q=80"
+        alt="Gallery 4" loading="lazy"
+      />
+      <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+    </div>
+
+    <div class="gallery-item" data-tooltip="Adventure">
+      <img
+        src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=480&q=80"
+        alt="Gallery 5" loading="lazy"
+      />
+      <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox">
+  <span class="lb-close"><i class="fas fa-times"></i></span>
+  <span class="lb-arrow lb-prev"><i class="fas fa-chevron-left"></i></span>
+  <img id="lb-img" src="" alt="Gallery image" />
+  <span class="lb-arrow lb-next"><i class="fas fa-chevron-right"></i></span>
+</div>
+
+<!-- ════════════════════════════════════════
+     BOOKING FORM
+     ════════════════════════════════════════ -->
+<section id="booking">
+  <div class="container">
+    <div class="booking-card reveal reveal-scale">
+      <div class="section-header">
+        <h2>Book a Room</h2>
+        <div class="section-divider"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+      <form id="booking-form" novalidate>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first_name" placeholder="First Name" required />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last_name" placeholder="Last Name" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message" placeholder="Message" />
+          </div>
+        </div>
+
+        <div class="form-row two">
+          <div class="form-group">
+            <label for="arrival">Arrival</label>
+            <input type="date" id="arrival" name="arrival" required />
+          </div>
+          <div class="form-group">
+            <label for="departure">Departure</label>
+            <input type="date" id="departure" name="departure" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="room-type">Room Type</label>
+            <select id="room-type" name="room_type" required>
+              <option value="" disabled selected>Room Type</option>
+              <option value="standard">Standard Room</option>
+              <option value="deluxe">Deluxe Room</option>
+              <option value="suite">Suite</option>
+              <option value="penthouse">Penthouse</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="rooms">Number of Rooms</label>
+            <select id="rooms" name="num_rooms" required>
+              <option value="" disabled selected>Number of Rooms</option>
+              <option value="1">1 Room</option>
+              <option value="2">2 Rooms</option>
+              <option value="3">3 Rooms</option>
+              <option value="4+">4+ Rooms</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>&nbsp;</label>
+            <!-- spacer -->
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="" disabled selected>Country</option>
+              <option>India</option>
+              <option>United States</option>
+              <option>United Kingdom</option>
+              <option>Australia</option>
+              <option>Canada</option>
+              <option>Germany</option>
+              <option>France</option>
+              <option>UAE</option>
+              <option>Singapore</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="zip">ZIP / Postal Code</label>
+            <input type="text" id="zip" name="zip" placeholder="ZIP" />
+          </div>
+        </div>
+
+        <div class="form-center">
+          <button type="submit" class="btn-book">
+            <i class="fas fa-calendar-check"></i> BOOK ROOM
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     CONTACT INFO STRIP
+     ════════════════════════════════════════ -->
+<section id="contact-info">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="contact-col reveal reveal-delay-1">
+        <h4>Visit Our Office</h4>
+        <address>
+          505, at urban-apt inaccusum road,<br>
+          west panthapah, kasalegon<br>
+          Dhammodi, Dhaka – 1205
+        </address>
+      </div>
+
+      <div class="contact-col reveal reveal-delay-2">
+        <h4>Let's call us</h4>
+        <p>
+          Phone 01: (012-4532) 568-8745<br>
+          Phone 02: (012-4532) 568-9748<br>
+          FAX: 02-4530-568-746
+        </p>
+      </div>
+
+      <div class="contact-col reveal reveal-delay-3">
+        <h4>Let's Email Us</h4>
+        <p>
+          <a href="mailto:info@colerlib.com">info@colerlib.com</a><br>
+          <a href="mailto:maintype@colerlib.com">maintype@colerlib.com</a><br>
+          <a href="mailto:infobay@platinfo.com">infobay@platinfo.com</a>
+        </p>
+      </div>
+
+      <div class="contact-col reveal reveal-delay-4">
+        <h4>Customer Support</h4>
+        <p>
+          <a href="mailto:support@colerlib.com">support@colerlib.com</a><br>
+          <a href="mailto:emergencyup@colerlib.com">emergencyup@colerlib.com</a><br>
+          <a href="mailto:infobay@platinfo.com">extremeauup@colerlib.com</a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     FOOTER
+     ════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div class="footer-col">
+        <span class="footer-brand-logo">PLATINA</span>
+        <p style="font-size:.84rem; line-height:1.9; color:rgba(255,255,255,.5);">
+          505, at urban-apt inaccusum road, west panthapah, kasalegon —
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua.
+        </p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter / X"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer-col">
+        <h5>Newsletter</h5>
+        <p style="font-size:.82rem; color:rgba(255,255,255,.45); margin-bottom:16px; line-height:1.75;">
+          Subscribe with your email to get our latest deals and hotel updates.
+        </p>
+        <form id="newsletter-form" novalidate>
+          <div class="footer-newsletter">
+            <input type="email" placeholder="Your email address" required aria-label="Email" />
+            <button type="submit" aria-label="Subscribe"><i class="fas fa-arrow-right"></i></button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Instagram Feed -->
+      <div class="footer-col">
+        <h5>Instagram Feed</h5>
+        <div class="footer-insta-grid">
+          <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?w=120&q=70" alt="Instagram 1" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=120&q=70" alt="Instagram 2" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=120&q=70" alt="Instagram 3" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=120&q=70" alt="Instagram 4" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=120&q=70" alt="Instagram 5" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=120&q=70" alt="Instagram 6" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Follow Us -->
+      <div class="footer-col">
+        <h5>Follow Us</h5>
+        <div class="footer-social" style="flex-direction:column; gap:14px; align-items:flex-start; margin-top:0;">
+          <a href="#" style="display:flex; align-items:center; gap:10px; width:auto; height:auto; border:none; background:none; color:rgba(255,255,255,.55); font-size:.83rem;">
+            <i class="fab fa-facebook-f" style="width:20px; text-align:center;"></i> Facebook
+          </a>
+          <a href="#" style="display:flex; align-items:center; gap:10px; width:auto; height:auto; border:none; background:none; color:rgba(255,255,255,.55); font-size:.83rem;">
+            <i class="fab fa-x-twitter" style="width:20px; text-align:center;"></i> Twitter / X
+          </a>
+          <a href="#" style="display:flex; align-items:center; gap:10px; width:auto; height:auto; border:none; background:none; color:rgba(255,255,255,.55); font-size:.83rem;">
+            <i class="fab fa-pinterest-p" style="width:20px; text-align:center;"></i> Pinterest
+          </a>
+          <a href="#" style="display:flex; align-items:center; gap:10px; width:auto; height:auto; border:none; background:none; color:rgba(255,255,255,.55); font-size:.83rem;">
+            <i class="fab fa-instagram" style="width:20px; text-align:center;"></i> Instagram
+          </a>
+          <a href="#" style="display:flex; align-items:center; gap:10px; width:auto; height:auto; border:none; background:none; color:rgba(255,255,255,.55); font-size:.83rem;">
+            <i class="fab fa-linkedin-in" style="width:20px; text-align:center;"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer bottom bar -->
+  <div class="footer-bottom">
+    <p>Copyright ©2024 All rights reserved | Made with <i class="fas fa-heart" style="color:var(--primary);"></i> by Platina Hotel | Distributed by <a href="#">ThemeMagic</a></p>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<a id="back-top" href="#home" role="button" aria-label="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+<!-- Toast -->
+<div id="toast" role="alert"></div>
+
+<!-- ── SCRIPTS ── -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
